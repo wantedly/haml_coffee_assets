@@ -1,5 +1,6 @@
-# coding: UTF-8
-require File.expand_path('../lib/haml_coffee_assets/version', __FILE__)
+# frozen_string_literal: true
+
+require File.expand_path('lib/haml_coffee_assets/version', __dir__)
 
 Gem::Specification.new do |s|
   s.name        = 'haml_coffee_assets'
@@ -13,7 +14,6 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.9.3'
   s.required_rubygems_version = '>= 1.3.6'
-  s.rubyforge_project         = 'haml_coffee_assets'
 
   s.files = Dir.glob('{app,lib,vendor}/**/*') + %w[LICENSE README.md]
 

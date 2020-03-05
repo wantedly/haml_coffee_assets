@@ -13,8 +13,3 @@ platform :ruby do
   gem 'therubyracer'
   gem 'redcarpet'
 end
-
-platform :jruby do
-  gem 'therubyrhino'
-  gem 'kramdown'
-end
